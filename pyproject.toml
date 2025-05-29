@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "stemmer"
+version = "0.0.1"
+description = "Audio source separation implementation"
+authors = ["Andreas Stassivik <andreas@stassi.net>"]
+license = "ISC"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
